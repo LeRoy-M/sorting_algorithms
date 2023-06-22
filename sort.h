@@ -12,6 +12,7 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+int _putchar(char c); /* Outputs to stdout */
 void print_array(const int *array, size_t size); /* Prints an array of integers */
 void print_list(const listint_t *list); /* Prints a list of integers */
 void bubble_sort(int *array, size_t size); /* Bubble sort algorithm */
