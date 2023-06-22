@@ -1,3 +1,6 @@
+#ifndef SORT_H
+#define SORT_H
+
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -63,3 +66,5 @@ typedef struct deck_node_s
     struct deck_node_s *prev;
     struct deck_node_s *next;
 } deck_node_t;
+
+#endif /* SORT_H */
